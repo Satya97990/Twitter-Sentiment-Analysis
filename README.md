@@ -18,13 +18,18 @@ Regular Expressions (re)
 
 📂 Dataset
 
-Dataset Used: Sentiment140
+This project uses the Sentiment140 dataset, which contains labeled tweets for sentiment analysis.
 
-Contains tweets labeled as:
+🔗 Download from Kaggle:
+https://www.kaggle.com/datasets/kazanova/sentiment140
 
-0 → Negative
+Instructions:
 
-4 → Positive (converted to 1 in this project)
+Download the dataset from the above link
+
+Extract the downloaded file
+
+Place sentiment140.csv in the project root directory
 
 🔄 Workflow
 
@@ -78,6 +83,7 @@ predict_sentiment("I love this phone")
 
 predict_sentiment("This is the worst experience ever")  
 # Output: Negative
+
 📚 Reference
 
 This project was implemented with guidance from:
